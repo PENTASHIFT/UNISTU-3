@@ -13,9 +13,9 @@ from openai import OpenAI
 TZ = datetime.timezone.utc
 TIME = datetime.time(hour=0, minute=0, second=0, tzinfo=TZ)
 
-EMBED = json.load(open("embed.json"))
-CONFIG = json.load(open("config.json"))
-SECRETS = json.load(open("secrets.json"))
+EMBED = json.load(open("json/embed.json"))
+CONFIG = json.load(open("json/config.json"))
+SECRETS = json.load(open("json/secrets.json"))
 
 # OpenAI setup.
 client = OpenAI(api_key=SECRETS["OpenAI"]["token"])
