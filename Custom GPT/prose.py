@@ -117,7 +117,5 @@ async def on_ready():
 
     print(f"Logged on as { bot.user }!")
 
-    await writing_daily()   # Temp.
-
 if __name__ == "__main__":
     bot.run(SECRETS["Discord"]["token"])
