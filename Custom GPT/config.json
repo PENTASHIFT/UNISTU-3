@@ -1,0 +1,13 @@
+{
+    "Discord": {
+        "channel": 0
+    },
+    "OpenAI": {
+        "p_assistant": "",
+        "c_assistant": "",
+        "genres": 
+            ["Horror", "Murder-mystery", "Fantasy", "Science-Fiction", "Classical"],
+        "ages":
+            ["3-5", "6-8", "9-12", "13-17", "18+"]
+    }
+}
